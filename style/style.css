@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner{
+    background-image: url('../images/banner/banner2.png');
+
+    background-size: cover;
+    background-position: center;
+    background-color: lightgrey;
+   
+}
+.banner-title{
+    padding-right: 25px;
+    text-align: right;
+    font-weight: 800;
+}
+.banner-paragraph{
+    padding-right: 25px;
+    text-align: right;
+    color: rgb(34, 30, 30);
+}
+.btn-primary{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #fd2f0a;
+    align-items: center;
+    margin-left: 85%;
+    margin-top: 10px;
+}
+
+/* previous-year-failure */
+
+.previous-year{
+    display: flex;
+    gap: 24px;
+    width: 80%;
+}
+.previous-year-failure{
+    align-items: center;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 600;
+
+}
+.failure-paragraph{
+    color: rgb(34, 30, 30);
+}
+.failure-paragraph1{
+    padding-top: 25px;
+    color: rgb(34, 30, 30);
+}
+ /* My Plan section  */
+ .skill-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-left: 50px;
+ }
+ .skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;}
+
+.skill-title{   
+    font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description{
+    color: rgb(34, 30, 30); ;
+}
