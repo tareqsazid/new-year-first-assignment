@@ -60,6 +60,11 @@ h2{
     color: rgb(34, 30, 30);
 }
  /* My Plan section  */
+ .section-title{
+    color: #000;
+    background: white;
+
+ }
  .skill-container{
     display: flex;
     gap: 24px;
