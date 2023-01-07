@@ -8,8 +8,10 @@
     background-size: cover;
     background-position: center;
     background-color: lightgrey;
+    height: 100%;
    
 }
+
 .banner-title{
     padding-right: 25px;
     text-align: right;
@@ -20,19 +22,9 @@
     text-align: right;
     color: rgb(34, 30, 30);
 }
-.btn-primary{
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 700;
-    border: 0;
-    padding: 18px 35px;
-    height: 64px;
-    border-radius: 5px;
-    background: #fd2f0a;
-    align-items: center;
-    margin-left: 85%;
-    margin-top: 10px;
-}
+.button-1
+
+
 
 /* previous-year-failure */
 
@@ -42,7 +34,9 @@
     width: 80%;
 }
 .previous-year-failure{
+    margin-top: 80px;
     align-items: center;
+    margin-left: 15%;
 }
 h2{
     text-align: center;
@@ -50,6 +44,7 @@ h2{
     padding-top: 25px;
     padding-bottom: 25px;
     font-weight: 600;
+    font-size: 28px;
 
 }
 .failure-paragraph{
@@ -60,16 +55,21 @@ h2{
     color: rgb(34, 30, 30);
 }
  /* My Plan section  */
- .section-title h2{
-    color: #000;
-    background: white;
+ h1{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 
  }
  .skill-container{
     display: flex;
     gap: 24px;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 15%;
  }
  .skill{
     background: #FFFFFF;
@@ -126,7 +126,7 @@ h3{
 .future{
     font-weight: 700px;
     color: #FFFFFF;
-    padding-bottom: 20px;
+    text-align: start;
 }
 .para2{
     color: #FFFFFF;
